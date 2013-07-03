@@ -1,0 +1,16 @@
+%head
+  %title Memory Game
+
+  %body
+    %div#game
+      %div#board
+        -2.times do
+          -@contents.shuffle.each do |x|
+            %div.tile
+              %img{:src => x.url, :alt => "photo of a really cute puppy"}
+
+      %div#results
+        %span.image.random
+        %h1 Good job!
+        %p You found all the matches in <span id="score"></span> clicks.
+        %button play again

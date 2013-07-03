@@ -1,0 +1,12 @@
+Content.create(:name => "img1", :url => "http://distilleryimage1.s3.amazonaws.com/636e9da2a3e311e2bbd822000a9f15da_6.jpg")
+
+Content.create(:name => "img2", :url => "http://distilleryimage10.s3.amazonaws.com/c5e75c128aac11e2802422000a9e0927_6.jpg")
+
+Content.create(:name => "img3", :url => "http://distilleryimage10.s3.amazonaws.com/824e2a966e3011e2b0f722000a9f18db_6.jpg")
+
+Content.create(:name => "img4", :url => "http://distilleryimage0.s3.amazonaws.com/f3c0c706643511e28dc022000a1f8c21_6.jpg")
+
+Content.create(:name => "img5", :url => "http://distilleryimage1.s3.amazonaws.com/bec1e5d05f3a11e299a722000a9d0ee0_6.jpg")
+
+Content.create(:name => "img6", :url => "http://distilleryimage11.s3.amazonaws.com/aa37e2925dcb11e2b45022000a1fb3cd_6.jpg")
+
